@@ -1,0 +1,60 @@
+[
+  {
+    "bookSourceComment": "1.0\n✅Yanguan",
+    "bookSourceGroup": "@漫画,韩🇰🇷",
+    "bookSourceName": "WebToon",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.comic.naver.com",
+    "bookUrlPattern": "",
+    "customOrder": -3595,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1673943022913,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "@css:.area_info .author@text",
+      "coverUrl": "@css:.area_thumbnail img@src",
+      "intro": "@css:.area_info .summary@text",
+      "kind": "@css:.genre@text",
+      "lastChapter": "@css:.toon_preview ul.section_episode_list li:first-of-type .info .title .name strong@text",
+      "name": "@css:.area_info strong.title@text",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@img@html##alt.*\\(\\)",
+      "imageStyle": "FULL",
+      "nextContentUrl": "",
+      "replaceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+      "author": "@css:p.sub_info@text",
+      "bookList": "@css:.result_lst li",
+      "bookUrl": "@css:.lst a@href",
+      "coverUrl": "@css:.im_br img@src",
+      "intro": "NULL",
+      "kind": "@css:div.sub_info .txt_score@text",
+      "lastChapter": "NULL",
+      "name": "@css:.toon_name@text",
+      "wordCount": "NULL"
+    },
+    "ruleToc": {
+      "chapterList": "-@css:ul.section_episode_list>li",
+      "chapterName": ".title .name strong@text",
+      "chapterUrl": "a.link@href",
+      "isPay": "class.lock",
+      "isVip": "class.lock",
+      "updateTime": ".detail .free_txt@text"
+    },
+    "searchUrl": "/search/result?keyword={{key}}",
+    "weight": 0
+  }
+]
